@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B026D2FC2292FB4200BFABBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026D2FB2292FB4200BFABBC /* AppDelegate.swift */; };
-		B026D2FE2292FB4200BFABBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026D2FD2292FB4200BFABBC /* ViewController.swift */; };
-		B026D3012292FB4200BFABBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B026D2FF2292FB4200BFABBC /* Main.storyboard */; };
+		B026D2FE2292FB4200BFABBC /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026D2FD2292FB4200BFABBC /* TransactionsViewController.swift */; };
 		B026D3032292FB4200BFABBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B026D3022292FB4200BFABBC /* Assets.xcassets */; };
 		B026D3062292FB4200BFABBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B026D3042292FB4200BFABBC /* LaunchScreen.storyboard */; };
 		B026D3112292FB4200BFABBC /* BudTransactionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026D3102292FB4200BFABBC /* BudTransactionsUITests.swift */; };
+		B026D31C2293047100BFABBC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026D31B2293047100BFABBC /* HomeViewController.swift */; };
+		B076C77F22930EE700DAB7CE /* DefaultNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076C77E22930EE700DAB7CE /* DefaultNavController.swift */; };
+		B0F8B07722ABC4E200BEE1F2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8B07622ABC4E200BEE1F2 /* Models.swift */; };
+		B0F8B07922ABC4FF00BEE1F2 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8B07822ABC4FF00BEE1F2 /* TransactionCell.swift */; };
+		B0F8B07B22AD211D00BEE1F2 /* testdata.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F8B07A22AD211D00BEE1F2 /* testdata.json */; };
+		B0F8B08422AD316900BEE1F2 /* TransactionsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8B08322AD316900BEE1F2 /* TransactionsAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +33,19 @@
 /* Begin PBXFileReference section */
 		B026D2F82292FB4200BFABBC /* BudTransactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudTransactions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B026D2FB2292FB4200BFABBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B026D2FD2292FB4200BFABBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B026D3002292FB4200BFABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B026D2FD2292FB4200BFABBC /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		B026D3022292FB4200BFABBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B026D3052292FB4200BFABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B026D3072292FB4200BFABBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B026D30C2292FB4200BFABBC /* BudTransactionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudTransactionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B026D3102292FB4200BFABBC /* BudTransactionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudTransactionsUITests.swift; sourceTree = "<group>"; };
 		B026D3122292FB4200BFABBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B026D31B2293047100BFABBC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B076C77E22930EE700DAB7CE /* DefaultNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNavController.swift; sourceTree = "<group>"; };
+		B0F8B07622ABC4E200BEE1F2 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B0F8B07822ABC4FF00BEE1F2 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		B0F8B07A22AD211D00BEE1F2 /* testdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testdata.json; sourceTree = "<group>"; };
+		B0F8B08322AD316900BEE1F2 /* TransactionsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				B026D2FB2292FB4200BFABBC /* AppDelegate.swift */,
-				B026D2FD2292FB4200BFABBC /* ViewController.swift */,
-				B026D2FF2292FB4200BFABBC /* Main.storyboard */,
+				B026D31B2293047100BFABBC /* HomeViewController.swift */,
+				B0F8B08322AD316900BEE1F2 /* TransactionsAPI.swift */,
+				B076C77E22930EE700DAB7CE /* DefaultNavController.swift */,
+				B026D2FD2292FB4200BFABBC /* TransactionsViewController.swift */,
+				B0F8B07822ABC4FF00BEE1F2 /* TransactionCell.swift */,
+				B0F8B07622ABC4E200BEE1F2 /* Models.swift */,
 				B026D3022292FB4200BFABBC /* Assets.xcassets */,
 				B026D3042292FB4200BFABBC /* LaunchScreen.storyboard */,
 				B026D3072292FB4200BFABBC /* Info.plist */,
@@ -90,6 +104,7 @@
 		B026D30F2292FB4200BFABBC /* BudTransactionsUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B0F8B07A22AD211D00BEE1F2 /* testdata.json */,
 				B026D3102292FB4200BFABBC /* BudTransactionsUITests.swift */,
 				B026D3122292FB4200BFABBC /* Info.plist */,
 			);
@@ -181,7 +196,7 @@
 			files = (
 				B026D3062292FB4200BFABBC /* LaunchScreen.storyboard in Resources */,
 				B026D3032292FB4200BFABBC /* Assets.xcassets in Resources */,
-				B026D3012292FB4200BFABBC /* Main.storyboard in Resources */,
+				B0F8B07B22AD211D00BEE1F2 /* testdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +214,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B026D2FE2292FB4200BFABBC /* ViewController.swift in Sources */,
+				B026D2FE2292FB4200BFABBC /* TransactionsViewController.swift in Sources */,
+				B0F8B08422AD316900BEE1F2 /* TransactionsAPI.swift in Sources */,
 				B026D2FC2292FB4200BFABBC /* AppDelegate.swift in Sources */,
+				B0F8B07922ABC4FF00BEE1F2 /* TransactionCell.swift in Sources */,
+				B026D31C2293047100BFABBC /* HomeViewController.swift in Sources */,
+				B076C77F22930EE700DAB7CE /* DefaultNavController.swift in Sources */,
+				B0F8B07722ABC4E200BEE1F2 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +243,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B026D2FF2292FB4200BFABBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B026D3002292FB4200BFABBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B026D3042292FB4200BFABBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -380,7 +392,6 @@
 		B026D3192292FB4200BFABBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BudTransactionsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -395,7 +406,6 @@
 		B026D31A2292FB4200BFABBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BudTransactionsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
